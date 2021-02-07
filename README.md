@@ -1,7 +1,10 @@
 # README
 
 BibSpace is an Online Bibtex Publications Management Software for Authors and Research Groups.
-Read about its features at the _Error Blog_ under: [BibSpace @ the Error Blog](https://blog.hex64.com/bibspace-online-bibtex-publications-management-software-for-authors-and-research-groups/).
+
+## Archiving note
+
+:warning: This repository is now archived and will be no longer maintained.
 
 ## Build Status
 
