@@ -92,30 +92,3 @@ The MySQL data is stored in `db_data`, whereas preferences and stats in `json_da
 2. Backup your data to the *JSON format* and make sure that data can be restored correctly.
 3. Replace code with version `0.6.0` and restore data from the JSON backup.
 
-#### From Version `0.5.0` to `>0.5.0`
-
-1. Update normally by replacing the code with newer version
-2. Execute the following commands:
-
-```
-mkdir -p json_data
-mv *.json json_data/
-```
-
-## TODOs
-
-I currently work on BibSpace to improve several things.
-I ship code in coding sessions that happen rather rarely - once, twice per year.
-In each session, I implement things according to the following priority list:
-
-1. Fix bugs from open issues
-2. Increase test coverage (until >90% is reached)
-3. Redesign/refactor bad smells in code from the past
-4. Implement features
-
-Moreover, I keep redesigning BibSpace to increase the quality of code.
-Remember that this was a `perl` and `Mojolicious` sandbox, so not all parts were written properly in the past.
-The following elements will be improved as the work progresses:
-- Fix the ugliest backend API and refactoring it to adhere to REST API best practices
-- Separate the backend code and the frontend code into modules or even projects
-- Apply modern frontend framework
